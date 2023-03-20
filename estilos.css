@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #229954;
+    border-bottom: 1px solid #16460d;
+}
+header .art_icon{
+    max-width: 30%;
+    margin: 5px;
+}
+header .art_icon img{
+    position: fixed;
+    left: 60px;
+}
+header .art_titulo_home{
+    max-width: 70%;
+    margin: 0 auto;
+}
+body{
+    max-width: 100%;
+    padding: 30px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #F2F3F4;
+    background-image:url('IMG/wave-body.svg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+*{
+    box-sizing: border-box;
+}
+h1{
+    font-size: 24px;
+    padding: 0;
+    margin: 5px 0px;
+    letter-spacing: 4px;
+    color: #ECF0F1;
+}
+h2{
+    font-size: 15px;
+}
+h3{
+    font-size: 13px;
+}
+h4{
+    font-size: 12px;
+}
+h1,h2{
+    text-align: center;
+}
+p{
+    font-size: 14px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.column{
+    margin-right: 50px;
+    text-align: left;
+}
+.principal{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.mision_vision{
+    margin: 30px;
+    padding: 20px;
+    background-color: #F1C40F;
+    box-shadow: -2px 12px 17px -3px rgba(174,187,219,0.81);
+    -webkit-box-shadow: -2px 12px 17px -3px rgba(174,187,219,0.81);
+    -moz-box-shadow: -2px 12px 17px -3px rgba(174,187,219,0.81);
+    border-radius: 15px;
+}
+.mision_vision h4{
+    text-align: center;
+}
+.titulos_articles{
+    background-color: #2C59FF;
+    color: #E9EEFF;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: center;
+    padding: 3px;
+    margin: 20px;
+}
+.titulos_articles h3{
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+.sct_direcciones{
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #4F94FE;
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: -5px 3px 17px -1px rgba(0,64,255,0.40);
+    -webkit-box-shadow: -5px 3px 17px -1px rgba(0,64,255,0.40);
+    -moz-box-shadow: -5px 3px 17px -1px rgba(0,64,255,0.40);
+}
+.sct_direcciones .row{
+    column-gap: 20%;
+}
+.sct_direcciones h3{
+    font-size: 18px;
+    background-color: #13FF00;
+    color: #075D00;
+    padding: 10px 15px;
+    border-radius: 15px 3px;
+}
+#nav_direcciones ul li{
+    padding: 10px;
+    list-style: none;
+    list-style-image: url(IMG/arrow-right-direction.png);
+    text-align: left;
+}
+#nav_direcciones ul a{
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #A9FF9B;
+    color: #0C5700;
+    padding: 0px 20px;
+    border-radius: 4px;
+}
+#nav_direcciones ul a :hover{
+    cursor: pointer;
+}
+#enlace{
+    color: white;
+    padding: 5px 20px 5px 20px;
+    background-color: #2767CA ;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.empresas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    column-gap: 25px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.card-empresa{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-top: 4px solid rgb(21, 93, 226);
+    background-color: white;
+    width: 200px;
+    height: 230px;
+    border-radius: 10px;
+    box-shadow: 0 10px 60px -6px black;
+    margin: 10px;
+    padding: 10px;
+}
+.card-titulo{
+    margin-top: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.card-body{
+    padding-top: 30px;
+}
+.card-body img{
+    object-position: center;
+    object-fit: cover;
+    width: 100%;
+}
+.tickets{
+    display: block;
+    margin: 0 auto;
+    padding: 0 30px;
+    background-color: #0FB94D;
+    width: 30%;
+    border-radius: 10px;
+
+}
+.tickets .row{
+    align-items: center;
+}
+.avisos{
+    text-align: center;
+    width: 100%;
+}
+#aviso{
+    background-color: #F7953E;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 10px;
+}
+.avisos h2{
+    color: white;
+    letter-spacing: 4px;
+    font-size: 18px;
+}
+#aviso h4{
+    text-align: center;
+    color: white;
+    letter-spacing: 3px;;
+}
+footer{
+    display: block !important;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #229954;
+    border-top: 1px solid white;
+}
+footer p{
+    color: #ECF0F1;
+}
+
+/* CSS PARA ANIMACION DE MENSAJE DE BIENVENIDA*/
+.mensaje-bienvenida{
+    width: 50%;
+    margin: 0 auto;
+    background-color: #F7953E;
+    margin-top: 20px;
+    padding: 30px;
+    border-radius: 15px;
+    color: white;
+}
+#b1, #b2 {
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
+}
+
+#b1 {
+  animation: showup 7s infinite;
+}
+
+#b2 {
+  width:0px;
+  animation: reveal 7s infinite;
+}
+
+#b2 span {
+  margin-left:-355px;
+  animation: slidein 7s infinite;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:355px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:355px;}
+}
+
+/*CSS PORTAL RHHH*/
+#letras-pequenas{
+    font-size: 10px;
+    color: white;
+}
+/*----------------------------------------------------------------------------------------------*/
+/*CSS PORTAL TI*/
+
+/*MENSAJE DE BIENVENIDA*/
+.mensaje-bienvenida_ti{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.mensaje-bienvenida_ti .inner{
+    width: 400px;
+	height: 100px;
+	line-height: 100px;
+	font-size: 3em;
+	font-family: sans-serif;
+	font-weight: bold;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.mensaje-bienvenida_ti .inner:first-child{
+    background-color: #1B4F72;
+	color: #F1C40F;
+	transform-origin: right;
+	transform: perspective(100px) rotateY(-15deg);
+}
+.mensaje-bienvenida_ti .inner:last-child{
+    background-color: #1B4F72;
+	color: antiquewhite;
+	transform-origin: left;
+	transform: perspective(100px) rotateY(15deg);
+}
+.mensaje-bienvenida_ti .inner span{
+    position: absolute;
+	animation: marquee 5s linear infinite;
+}
+.mensaje-bienvenida_ti .inner:first-child span{
+    animation-delay: 2.5s;
+	left: -100%;
+}
+@keyframes marquee {
+	from {
+		left: 100%;
+	}
+
+	to {
+		left: -100%;
+	}
+}
